@@ -1,0 +1,32 @@
+{
+  "name": "webdriverio-test-with-mocha-chai",
+  "version": "1.0.0",
+  "description": "WebdriverIO with Mocha, Chai and Page Object Model",
+  "main": "",
+  "directories": {
+    "test": "specs"
+  },
+  "scripts": {
+    "mocha-script": "wdio ./configs/wdio.mocha.conf",
+    "test": "npm install && npm run mocha-script"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mochawesome-report-generator": "^3.1.5",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-mochawesome-reporter": "^2.0.1",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.13.0"
+  },
+  "keywords": [
+    "webdriverIO",
+    "mocha",
+    "chai",
+    "BDD",
+    "Page Object",
+    "Functional testing"
+  ],
+  "author": "Pravin Surve <surve_pravin@ymail.com> (https://linkedin.com/in/pravinsurve)",
+  "license": "ISC"
+}
